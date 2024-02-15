@@ -1,0 +1,54 @@
+body {
+  background-color: #333;
+}
+
+.media {
+  width: 440px;
+  height: 330px;
+  border: 3px solid wheat;
+  border-radius: 10px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(71, 72, 72);
+}
+
+img,
+video {
+  max-width: 440px;
+  display: block;
+  border-radius: inherit;
+}
+.action-btn {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.take {
+  width: 90px;
+  border: 0;
+  cursor: pointer;
+  color: antiquewhite;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  font-size: medium;
+
+  background-color: rgb(71, 72, 72, 0.5);
+  font-family: "Roboto", sans-serif;
+}
+
+.take:hover {
+  color: #333;
+  background-color: antiquewhite;
+  transition: 0.3s;
+}
+
+#canvas {
+  display: none;
+}
